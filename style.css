@@ -1,3 +1,8 @@
+:root {
+  /* --video_convidado: none; */
+  /* --video_convidado: flex; */
+}
+
 /* body {
   background-color: khaki;
 }
@@ -112,14 +117,18 @@ header div {
 .ArrayConv {
   /* background-color: gray; */
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+
+  width: 100%;
+  height: 47vh;
+
   margin-bottom: 0.2rem;
 }
 
 .ArrayConv img {
-  /* display: none; */
   height: 100%;
   border-radius: 13px;
+  display: var(--video_convidado);
 }
 
 .VideoLocal {
@@ -199,6 +208,7 @@ ion-icon {
   border: 0;
   bottom: 1%;
   right: 2%;
+  display: var(--video_convidado);
 }
 
 #mic-conv {
