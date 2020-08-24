@@ -1,0 +1,223 @@
+/* body {
+  background-color: khaki;
+}
+
+.class {
+  background-color: aquamarine;
+}
+
+#id {
+  background-color: brown;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html,
+body
+{
+  height: 100vh;
+} */
+
+body {
+  /* background-color: red; */
+  color: white;
+}
+
+/* div {
+  margin: 0;
+  border: 0;
+  padding: 0;
+} */
+
+.MainContainer {
+  background-color: white;
+}
+
+.VideoConv {
+  /* background-color: blueviolet; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.08);
+  width: 100%;
+  overflow: hidden;
+}
+
+#LbReuniao {
+  color: white;
+  font: 3 35vmin/8vh cookie, cursive;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-variant-ligatures: normal;
+  font-size: 2rem;
+  /* letter-spacing: 1px; */
+}
+
+header div {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 25%;
+  right: 15%;
+}
+
+#vol {
+  position: absolute;
+  top: 30%;
+  right: 28%;
+}
+
+#chat {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+#info {
+  position: absolute;
+  top: 30%;
+  right: 3%;
+}
+
+.VideoConv img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.ArrayVideo {
+  /* background-color: chartreuse; */
+  position: absolute;
+
+  width: 160px;
+  height: 600px;
+
+  right: 1.5%;
+  bottom: 3%;
+}
+
+.ArrayVideo1 {
+  position: fixed;
+  width: 160px;
+}
+
+.ArrayConv {
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.2rem;
+}
+
+.ArrayConv img {
+  /* display: none; */
+  height: 100%;
+  border-radius: 13px;
+}
+
+.VideoLocal {
+  /* background-color: aqua; */
+  height: 150px;
+  margin-left: 0.4rem;
+}
+
+.VideoLocal img {
+  height: 100%;
+  border-radius: 13px;
+}
+
+.MenuContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  bottom: 5%;
+}
+
+.Menu {
+  /* background-color: darkorange; */
+  align-self: flex-end;
+  display: -webkit-box;
+}
+
+li {
+  display: table-footer-group;
+  height: 150px;
+  margin-top: 0.2rem;
+  margin-left: 0.4rem;
+}
+
+.button {
+  width: 5rem;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+
+  margin: 6px;
+  border: 1.5px solid white;
+  opacity: 0.9;
+  border-radius: 50px;
+}
+
+ion-icon {
+  font-size: 30px;
+  --ionicon-stroke-width: 40px;
+}
+
+#call {
+  color: red;
+  background-color: white;
+  border: 0;
+}
+
+#call ion-icon {
+  transform: rotate(135deg);
+}
+
+#mic-off {
+  color: white;
+  background-color: crimson;
+  border: 0;
+}
+
+#mic-off2 {
+  position: absolute;
+  background-color: crimson;
+  align-items: center;
+  font-size: 10px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  border: 0;
+  bottom: 1%;
+  right: 2%;
+}
+
+#mic-conv {
+  left: 17%;
+  top: 17%;
+  position: absolute;
+  font-size: 25px;
+  --ionicon-stroke-width: 30px;
+}
+
+#mic2 {
+  position: absolute;
+  opacity: 0.9;
+  align-items: center;
+  border: 1.5px solid white;
+  font-size: 10px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  bottom: 1%;
+  right: 2%;
+}
